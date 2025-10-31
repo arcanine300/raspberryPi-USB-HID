@@ -5,4 +5,4 @@ Circuit Python script using [AdaFruit USB HID](https://github.com/adafruit/Adafr
 The project implements product and vendor ID spoofing to prevent device detection / fingerprinting from AntiCheat software.
 
 ## USB Report Descriptor Spoofing
-By extracting USB report descriptor hex dump from a [Logitech LX3 Mouse](http://cdn.cnetcontent.com/18/53/18537558-49bb-46a3-a483-1ea19771a155.pdf) and using a [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) tool, allows the implementation the identical report descriptor of the USB HID device.
+By extracting USB report descriptor hex dump from a [Logitech LX3 Mouse](http://cdn.cnetcontent.com/18/53/18537558-49bb-46a3-a483-1ea19771a155.pdf) and using a [USB Descriptor and Request Parser](https://eleccelerator.com/usbdescreqparser/) tool, the raspberry pi pico will have the identical report descriptor of the USB HID device.
