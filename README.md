@@ -1,5 +1,5 @@
 # PICO USB Human Interface Device Emulation
-Circuit Python script using [AdaFruit USB HID](https://github.com/adafruit/Adafruit_CircuitPython_HID) library to emulate USB device functionality, can be used to implement software macros that execute at the hardware level. Currently configured to create mouse input that is identical in USB reporting to a common office mouse.
+[Circuit Python](https://circuitpython.org/board/raspberry_pi_pico2/) script using [AdaFruit USB HID](https://github.com/adafruit/Adafruit_CircuitPython_HID) library to emulate USB device functionality, can be used to implement software macros that execute at the hardware level. Currently configured to create mouse input that is identical in USB reporting to a common office mouse.
 
 ## USB PID / VID Spoofing
 The project implements product and vendor ID spoofing to prevent device detection / fingerprinting from AntiCheat software.
